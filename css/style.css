@@ -109,3 +109,8 @@ nav a, a:hover {
     padding: 40px;
 }
 
+.dsmovie-form-container{
+    max-width: 480px;
+    padding: 40px 0;
+}
+
