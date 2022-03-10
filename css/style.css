@@ -2,9 +2,10 @@
 
 :root{
     --color-primary:#4d41c0;
-    --gray:4A4A4A;
+    --gray:A9A9A9;
     --bg-gray: #ddd;
     --white:#fff;
+    --text-light-gray: #d3d3d3;
 }
 
 * {
@@ -21,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html, body{
-    background-color: var(--bg-gray);
+    background-color: var(--gray);
 }
 
 header{
@@ -103,6 +104,7 @@ nav a, a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    border: 0;
 }
 
 #dsmovie-card-list {
@@ -112,5 +114,41 @@ nav a, a:hover {
 .dsmovie-form-container{
     max-width: 480px;
     padding: 40px 0;
+}
+
+.dsmovie-form-description {
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+dsmovie-form-description h4 {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.dsmovie-form-group {
+    margin-bottom:  20px;
+}
+
+.dsmovie-form-group label {
+    font-size: 12px;
+    color: var(--text-light-gray);
+}
+
+.dsmovie-form {
+    width: 100%;
+}
+
+.dsmovie-form-btn-container{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
